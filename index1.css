@@ -1,57 +1,47 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   /* Global styles */
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f8f9fa;
+    color: #333;
   }
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+  a {
+    text-decoration: none;
+    color: #007bff;
   }
   
-  /* Navbar styles */
+  /* Header styles */
   .navbar {
-    background-color: #ffffff;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
   }
   
   .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #333;
-    text-decoration: none;
   }
   
   .navbar-toggler {
-    background-color: #333;
-    color: #fff;
+    border: none;
   }
   
   .navbar-nav {
-    list-style: none;
-    display: flex;
+    margin-top: 10px;
   }
   
   .nav-item {
-    margin-right: 10px;
+    margin-right: 15px;
   }
   
-  .dropdown-menu {
-    list-style: none;
-    background-color: #fff;
-  }
-  
-  .dropdown-item {
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  /* Masthead styles */
+  /* Hero section styles */
   .masthead {
     background-color: #007bff;
     color: #fff;
@@ -59,61 +49,110 @@ body, h1, h2, h3, p, ul, li {
     text-align: center;
   }
   
-  .display-1 {
-    font-size: 3rem;
+  .masthead h1 {
+    font-size: 2.5rem;
   }
   
-  .lead {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
+  .masthead p {
+    font-size: 1.2rem;
   }
   
   .app-badge {
-    width: 150px;
-    height: auto;
     margin-right: 10px;
+    margin-bottom: 10px;
   }
   
-  /* Device mockup styles */
-  .masthead-device-mockup {
-    position: relative;
+  /* Feature section styles */
+  #features {
+    background-color: #fff;
+    padding: 100px 0;
   }
   
-  .circle {
-    fill: url(#circleGradient);
+  #features h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
   }
   
-  .device-wrapper {
-    position: relative;
-    padding-top: 177.78%;
+  .icon-feature {
+    font-size: 3rem;
+    color: #007bff;
   }
   
-  .device {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  .font-alt {
+    color: #007bff;
   }
   
-  .screen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  /* Download section styles */
+  #download {
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .app-badge {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact section styles */
+  #kontak {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
     background-color: #000;
+    color: #ccc;
+    padding: 20px 0;
   }
   
-  /* Media queries for responsive design */
+  /* Modal styles */
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-floating {
+    margin-bottom: 20px;
+  }
+  
+  /* Adjustments for smaller screens */
   @media (max-width: 768px) {
-    .navbar-nav {
-      flex-direction: column;
-      align-items: center;
+    .navbar-brand {
+      font-size: 1.2rem;
     }
-    
-    .nav-item {
-      margin: 5px 0;
+  
+    .masthead h1 {
+      font-size: 2rem;
+    }
+  
+    .masthead p {
+      font-size: 1rem;
+    }
+  
+    .app-badge {
+      width: 120px;
+    }
+  
+    #features h3 {
+      font-size: 1.5rem;
+    }
+  
+    .icon-feature {
+      font-size: 2.5rem;
+    }
+  
+    .font-alt {
+      font-size: 1.2rem;
     }
   }
   
