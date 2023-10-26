@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="biodata.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="process.php" method="post">
+        <fieldset>
+            <legend>Personal Data: </legend>
+
+            <!-- Input type text -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <!-- Input type email -->
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!-- Input type text -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <!--Input type password-->
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <!-- Input type radio -->
+            <p>Choose your gender: </p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Select element -->
+            <label for="religion">Choose your religion: </label>
+            <select id="religion" name="religion">
+                <option value="Christian">Christian</option>
+                <option value="Moslem">Moslem</option>
+                <option value="Budhist">Budhist</option>
+                <option value="Hindu">Hindu</option>
+            </select><br><br>
+
+            <!-- Textarea element -->
+            <label for="comment">Write yout address below: </label><br>
+            <textarea id="comment" name="comment" rows="10" cols="30"></textarea><br>
+
+            <!-- Input type checkbox -->
+            <p>Choose your hobbies: </p>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Badminton">
+            <label for="hobby1">Badminton</label><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Futsal">
+            <label for="hobby2">Futsal</label><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Football">
+            <label for="hobby3">Football</label><br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Basketball">
+            <label for="hobby4">Basketball</label><br>
+
+                <!-- Input type submit & image -->
+                <input type="image" src="images/save.png" alt="Save" width="150" height="150">
+
+                <div class="contact">
+                    <h3>Take a look here too!</h3>
+                    <a href="index.html">Home</a>
+                    <a href="biodata.html" target="_blank">Biodata</a>
+                    <a href="free.html" target="_blank">Free Page</a>
+                </div>
+        
+                <div class="contact">
+                    <h3>Universitas Advent Indonesia | Fakultas Teknologi Informasi</h3>
+                    <a href="https://unai.edu/">https://unai.edu/</a>
+                    <a href="https://fti.unai.edu/" target="_blank">https://fti.unai.edu/</a><br>
+                    <p>FTI, more than faculty!</p>
+                </div>
+        </fieldset>
+
+</body>
+</html>
