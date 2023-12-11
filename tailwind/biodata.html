@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biodata</title>
+</head>
+<body class="overflow-x-hidden">
+    <nav class="shadow-lg bg-white z-50 navbar sticky top-0 border-gray-200 px-4 md:px-10 py-2 xl:px-24">
+        <div class="max-w-screen-xl flex flex-wrap justify-between items-center mx-auto p-3">
+            <a href="index.html" class="flex items-center hover:text-blue-700 space-x-1 rtl:space-x-reverse">
+                <img src="images/logo.png" alt="logo" width="50px"/>
+                <span class="kanit text-xl font-medium">Lagu Sion Plus</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium mulish text-gray-700 flex flex-col lg:items-center md:items-center sm:items-start p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="index.html" class="block py-2 px-3 hover:text-gray-500 transition-all md:bg-transparent md:p-0 md:dark:text-black" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="biodata.html" class="block py-2 px-3 hover:text-gray-500 transition-all md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent">Biodata</a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html" class="block py-2 px-3 hover:text-gray-500 transition-all md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="free.html" class="block py-2 px-3 hover:text-gray-500 transition-all md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent">Free</a>
+                    </li>
+                    <li>
+                        <a href="https://unai.edu/" target="_blank" class="block py-2 px-3 hover:text-gray-500 transition-all md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent">UNAI</a>
+                    </li>
+                    <li>
+                        <a href="https://fti.unai.edu/" target="_blank" class="block py-2 px-3 hover:text-gray-500 transition-all md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent">FTI UNAI</a>
+                    </li>
+                    <li> 
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-black flex" type="button">
+                            <img src="images/id-flag.png" alt="image" width="30px">
+                            <i class='bx bx-caret-down ms-1'></i>
+                        </button>
+                        
+                        <!-- Dropdown menu -->
+                        <div id="dropdown" class="z-10 bg-white hidden divide-y rounded-md shadow w-36">
+                            <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDefaultButton">
+                                <li class="block">
+                                    <a href="#" class="flex py-2 px-3 hover:bg-gray-200">
+                                        <img src="images/id-flag.png" alt="image" width="20px">
+                                        <span class="ms-1">Indonesian</span>
+                                    </a>
+                                    <a href="#" class="flex py-2 px-3 hover:bg-gray-200">
+                                        <img src="images/en-flag.png" alt="image" width="20px">
+                                        <span class="ms-1">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="p-0 m-0 flex">
+                        <a href="#" class="bg-orange-600 text-white hover:bg-red-500 px-4 rounded-full flex items-center py-1">
+                            <i class='bx bxs-message-rounded-detail text-lg'></i>
+                            <span class="text-sm ms-1">Kirim Masukan</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-cyan-700 text-sky-200 text-center p-10">
+        <h1 class="text-3xl font-bold">Hello! (｡•̀ᴗ-)✧</h1>
+    </header>
+
+    <div class="m-20 p-20 m-auto">
+        <div>
+            <center>
+                <img src="images/valeriespic.jpg" alt="Valerie" width="30%">
+                <h2 class="text-xl font-bold">I'm Valerie Grace</h2>
+                <p>I am a college student at Adventist University of Indonesia majoring in Computer Science. 
+                    Currently, I am learning how HTML works. 
+                    I am very interested in HTML because here I am free to create websites according to the design I want, 
+                so I can become more creative. This web is my first personal web portfolio so please check it :D</p>
+            </center>
+        </div>
+        <br><br>
+
+        <header class="bg-cyan-700 text-sky-200 text-center p-10">
+            <h1 class="text-3xl font-bold">Know Me More On :</h1>
+        </header>
+        <div class="text-center">
+            <h3 class="text-xl font-bold">My social media & Contacts</h3><br>
+            <a href="https://www.instagram.com/eeeir.elav/" class="bg-gray-300 px-5 py-2 rounded-lg hover:bg-cyan-700 hover:text-sky-200">Instagram</a>
+            <a href="https://wa.me/6281398638194/?text=Halooo%20Val!%20(｡•̀ᴗ-)✧" target="_blank" class="bg-gray-300 px-5 py-2 rounded-lg hover:bg-cyan-700 hover:text-sky-200">WhatsApp</a>
+            <a href="index.html" target="_blank" class="bg-gray-300 px-5 py-2 rounded-lg hover:bg-cyan-700 hover:text-sky-200">Homepage</a><br>
+            <h4 class="font-bold pt-2">See yaa (｡•̀ᴗ-)✧</h4>
+        </div>
+
+        <div class="mt-5 text-center">
+            <h3 class="text-xl font-bold">Take a look here too!</h3><br>
+            <a href="index.html" class="bg-gray-300 px-5 py-2 rounded-lg hover:bg-cyan-700 hover:text-sky-200">Home</a>
+            <a href="contact_us.html" target="_blank" class="px-5 py-2 bg-gray-300 rounded-lg hover:bg-cyan-700 hover:text-sky-200">Contact Us</a>
+            <a href="free.html" target="_blank" class="px-5 py-2 bg-gray-300 rounded-lg hover:bg-cyan-700 hover:text-sky-200">Free Page</a>
+        </div>
+    
+        <div class="m-5 text-center">
+            <h3>Universitas Advent Indonesia | Fakultas Teknologi Informasi</h3><br>
+            <a href="https://unai.edu/" class="px-5 py-2 bg-gray-300 rounded-lg hover:bg-cyan-700 hover:text-sky-200">https://unai.edu/</a>
+            <a href="https://fti.unai.edu/" target="_blank" class="px-5 py-2 bg-gray-300 rounded-lg hover:bg-cyan-700 hover:text-sky-200">https://fti.unai.edu/</a><br><br>
+            <p>FTI, more than faculty!</p>
+        </div>
+    </div>
+
+    <div class="text-center py-4 mt-4 bg-black sm:mt-6 sm:py-4 md:mt-8 md:py-6 lg:mt-16 lg:py-12">
+        <h6 class="text-gray-400 text-sm mulish">Lagu Sion Plus © 2023. All Rights Reserved.</h6>
+    </div>
+  
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+</body>
+</html>
