@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500&family=Newsreader:opsz,wght@6..72,200;6..72,300;6..72,400;6..72,500&family=Roboto:wght@100;300;400;500;700&family=Text+Me+One&display=swap');
+/* font-family: 'Newsreader', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500&family=Mulish:wght@200;300;400;500;600&family=Newsreader:opsz,wght@6..72,200;6..72,300;6..72,400;6..72,500&family=Roboto:wght@100;300;400;500;700&family=Text+Me+One&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Kanit:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500&family=Mulish:wght@200;300;400;500;600&family=Newsreader:opsz,wght@6..72,200;6..72,300;6..72,400;6..72,500&family=Roboto:wght@100;300;400;500;700&family=Text+Me+One&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.con-nav{
+    box-shadow: 0 0 8px #cacaca;
+}
+
+.con-nav .navbar-brand{
+    font-family: 'Kanit', sans-serif;
+}
+
+.con-nav .navbar-nav{
+    font-family: 'Mulish', sans-serif;
+}
+
+.chat-but{
+    background: #FE5100;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 20px;
+}
+
+.chat-but button{
+    color: #fff !important;
+    padding: 7px 16px;
+}
+
+.chat-but button i{
+    font-size: 20px;
+}
+
+.jumbotron .left h1{
+    font-size: 72px;
+    font-family: 'Newsreader', serif;
+}
+
+.right{
+    position: relative;
+}
+
+.right video{
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 200px;
+}
+
+.jum-img{
+    position: relative;
+}
+
+.circle{
+    width: 380px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FE9D04, #FE6101);
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.circle::after{
+    content:'';
+    width: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #ffba4c;
+    position: absolute;
+    right: 0;
+}
+
+.x-shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-10deg);
+    bottom: 0;
+    left: 80px;
+}
+  
+  .line {
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background-color: #FE6101;
+    border-radius: 5px;
+}
+  
+  .line-1 {
+    transform: rotate(45deg);
+    top: calc(50% - 1px);
+}
+  
+  .line-2 {
+    transform: rotate(-45deg);
+    top: calc(50% - 1px);
+}
+
+.quotes, .unduh{
+    background: linear-gradient(to right, #FE9D04, #FE6101);
+}
+
+.fitur h3, .faq-title h3, .hubungi h3, .faq > div > a p{
+    font-family: 'Newsreader', serif;
+}
+
+.faq > div > a p{
+    font-weight: bold;
+}
+
+.unduh h3{
+    font-family: 'Kanit', sans-serif;
+}
+
+.mid-left{
+    /* background: #c1c1c1; */
+    padding: 50px;
+    position: relative;
+}
+
+.circle2{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FE9D04, #FE6101);
+    position: absolute; 
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.circle3{
+    width: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #FE9D04, #FE6101);
+    position: absolute; 
+    bottom: 180px;
+    left: 30px;
+}
+
+.x-shape2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-10deg);
+    top: 20px;
+    right: -180px;
+}
+  
+  .line2 {
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background-color: #FE6101;
+    border-radius: 5px;
+}
+  
+  .line-1-2 {
+    transform: rotate(45deg);
+    top: calc(50% - 1px);
+}
+  
+  .line-2-2 {
+    transform: rotate(-45deg);
+    top: calc(50% - 1px);
+}
+
+.mid-left img{
+    width: 300px;
+}
+
+.phones1{
+    margin-right: -200px;
+}
+
+.faq a > i{
+    font-size: 30px;
+}
+
+.faq > div > a{
+    border: 1px solid #c1c1c1;
+}
+
+.faq > div > a:hover{
+    border: 1px solid #c1c1c1;
+}
+
+.phones2{
+    margin-left: -280px;
+}
+
+.footer{
+    background: #000;
+}
+
+
+/* Biodata styling */
+
+.my-bio .bx.bxl-instagram-alt {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+    margin-right: 5px;
+    transition: 300ms ease;
+}
+
+.my-bio .bx.bxl-whatsapp-square {
+    color: #25D366;
+    font-size: 2rem;
+    transition: 300ms ease;
+}
+
+.my-bio .bx.bxl-instagram-alt:hover, .my-bio .bx.bxl-whatsapp-square:hover{
+    transform: rotate(8deg);
+    transition: 300ms ease;
+}
+
+
+.contact-form{
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #c1c1c1;
+}
+
+.contact-form form input:focus, .contact-form form textarea:focus, .contact-form form select:focus{
+    box-shadow: none;
+    border: 1px solid #F56040;
+}
+
+.contact-form form button{
+    border: 1px solid #F56040;
+    color: #F56040;
+    transition: 300ms ease;
+}
+
+.contact-form form button:hover{
+    background: linear-gradient(to bottom right, #FE9D04, #FE6101);
+    color: #fff;
+    transition: 300ms ease;
+}
+
+
+@media(max-width: 991px){
+    .jumbotron{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .downloads{
+        justify-content: center;
+    }
+
+    .mid-content{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .phones1, .phones2{
+        display: none !important;
+    }
+}
+
+@media(max-width: 767px){
+    .right video{
+        margin: 0;
+    }
+
+    .my-bio{
+        text-align: center;
+    }
+}
+  

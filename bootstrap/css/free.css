@@ -1,0 +1,60 @@
+body main {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom right, #FE9D04, #FE6101);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: 300ms ease;
+}
+
+.contact a:hover {
+    background: #FE6101;
+    color: #fff;
+    transition: 300ms ease;
+}
+
+.songs li a{
+    text-decoration: none;
+}
+
+.songs li a:hover{
+    text-decoration: underline;
+}
