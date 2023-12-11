@@ -1,0 +1,18 @@
+[[plugins]]
+  package = "netlify-plugin-inline-source"
+
+[[redirects]]
+  from = "/bootstrap/*"
+  to = "/bootstrap/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/tailwind/*"
+  to = "/tailwind/:splat"
+  status = 200
+  force = true
+
+[build]
+  command = "npm run build"  # Sesuaikan dengan perintah build proyek Anda
+  publish = "public"  # Sesuaikan dengan direktori tempat file-file hasil build ditempatkan
